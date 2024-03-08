@@ -125,9 +125,12 @@ a::after{
     grid-template-areas: 
     "gird-colm-1" "gird-colm-1" "side-grid";
     /* color: black; */
-    text-align: center;
     justify-content: center;
     /* width: 66%; */
+}
+
+a{
+    text-decoration: none;
 }
 
 .grid-background{
@@ -170,7 +173,7 @@ a::after{
     padding: 2% 17% 0% 17%;
 }
 
-.blarg h2{
+.grid-background h2{
     text-align: center;
 }
 
